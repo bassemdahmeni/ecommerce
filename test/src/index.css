@@ -1,7 +1,6 @@
-.card{
+.card {
     border: 1px solid rgba(222, 226, 231, 1);
     background-color: white;
-
     border-radius: 5px;
     padding: 20px;
     margin: 10px;
@@ -11,24 +10,26 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
-
-
-    
-    
-    
+    transition: transform 0.3s ease;
+    cursor: pointer; 
 }
-.im{
+
+.card:hover {
+    transform: scale(1.1); 
+}
+
+
+.im {
     width: 280.36px;
     height: 272.37px;
     position: relative;
     right: 15px;
-
 }
-.button{
+
+.button {
     background-color: #0D6EFD;
     color: white;
-    padding:0px, 16px, 0px, 16px;
+    padding: 0px 16px;
     border: none;
     border-radius: 6px;
     width: 222.6px;
@@ -36,18 +37,14 @@
     cursor: pointer;
     position: relative;
     bottom: 5px;
-    
-
-
 }
-.buttoncont{
+
+.buttoncont {
     display: flex;
     justify-content: center;
-    
-  
-   
 }
-.text{
+
+.text {
     font: inherit;
     font-weight: 400;
     size: 16px;
@@ -56,38 +53,34 @@
     margin: 0px;
     position: relative;
     bottom: 10px;
-    
 }
-.title{
-  position: relative;
-  top: 10px;
+
+.title {
+    position: relative;
+    top: 10px;
 }
-.button2{
+
+.button2 {
     display: flex;
     gap: 5px;
-    
-
 }
-.heart{
+
+.heart {
     position: relative;
     bottom: 15px;
     cursor: pointer;
 }
-.content{
-    
-   
-}
-.container33{
-    background-image: url("./background.png");
+.container33 {
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover; /* or 'contain', depending on your preference */
     padding-left: 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 5%;
-    
 }
+
+
 body{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;

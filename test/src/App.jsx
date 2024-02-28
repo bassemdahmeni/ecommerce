@@ -4,7 +4,7 @@ import Navbar from './navbar/navbar.jsx';
 import Footer from './footer/footer.jsx';
 import Pagination from './paggination.jsx';
 import Section from './section/section.jsx';
-import background from './background.png'
+
 import Grid from './Grid.jsx';
 import im1 from './1.png'
 import im2 from './4.png'
