@@ -1,0 +1,34 @@
+.paginationContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5.5vw;
+}
+
+.paginationButtons {
+    display: flex;
+}
+
+.paginationButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.paginationLink {
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.paginationLink.active {
+    background-color: grey;
+}

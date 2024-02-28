@@ -1,0 +1,107 @@
+.card{
+    border: 1px solid rgba(222, 226, 231, 1);
+    background-color: white;
+
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 26vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+    
+    
+    
+}
+.im{
+    width: 280.36px;
+    height: 272.37px;
+    position: relative;
+    right: 15px;
+
+}
+.button{
+    background-color: #0D6EFD;
+    color: white;
+    padding:0px, 16px, 0px, 16px;
+    border: none;
+    border-radius: 6px;
+    width: 222.6px;
+    height: 51.2px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+    
+
+
+}
+.buttoncont{
+    display: flex;
+    justify-content: center;
+    
+  
+   
+}
+.text{
+    font: inherit;
+    font-weight: 400;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin: 0px;
+    position: relative;
+    bottom: 10px;
+    
+}
+.title{
+  position: relative;
+  top: 10px;
+}
+.button2{
+    display: flex;
+    gap: 5px;
+    
+
+}
+.heart{
+    position: relative;
+    bottom: 15px;
+    cursor: pointer;
+}
+.content{
+    
+   
+}
+.container33{
+    background-image: url("./background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+    
+}
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    background-color:"rgba(232, 232, 232, 0.879)";
+}
+
+
+
+
+
+
+
+
+
